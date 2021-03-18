@@ -23,8 +23,6 @@ namespace Ejercicio2
             Console.WriteLine("Resultado: ");
             Console.ReadLine();
 
-
-            
         }
     }
 }
