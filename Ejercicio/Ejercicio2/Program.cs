@@ -6,10 +6,25 @@ using System.Threading.Tasks;
 
 namespace Ejercicio2
 {
-    class Program
+    class Ejercicio2
     {
         static void Main(string[] args)
         {
+            Console.Title = "Ejercicio: 2";
+            string preg;
+            int num;
+            Console.WriteLine("Ingrese un numero: ");
+            preg = Console.ReadLine();
+            while (!int.TryParse(preg, out num))
+            {
+                Console.WriteLine("ERROR. ¡Reingresar número!");
+                preg = Console.ReadLine();
+            }
+            Console.WriteLine("Resultado: ");
+            Console.ReadLine();
+
+
+            
         }
     }
 }

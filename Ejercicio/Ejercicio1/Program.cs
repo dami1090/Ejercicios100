@@ -16,6 +16,7 @@ namespace Ejercicio1
             int i = 0;
             int min = int.MaxValue;
             int max = int.MinValue;
+            int acumulador=0;
             while (i < 5)
             {
                 do
@@ -37,9 +38,12 @@ namespace Ejercicio1
                     min = numero;
                 }
                 Console.WriteLine("Numero vale: " + numero);
+                acumulador = acumulador + numero;
             }
             Console.WriteLine("min: " + min);
             Console.WriteLine("max: " + max);
+            Console.WriteLine("contador i: " + i);
+            Console.WriteLine("Promedio: " + acumulador / i);
             Console.ReadLine();
         }
 
