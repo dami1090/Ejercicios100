@@ -8,7 +8,7 @@ namespace BibliotecaDami
 {
     public class Boligrafo
     {
-        public short cantidadTintaMaxima = 100;
+        short cantidadTintaMaxima = 100;
         ConsoleColor color;
         short tinta;
 
@@ -59,13 +59,13 @@ namespace BibliotecaDami
         }
         public void Recargar()
         {
-            this.tinta = 100;
+            this.tinta = cantidadTintaMaxima;
         }
         private void SetTinta(short tinta)
         {
             if (tinta > 0)
             {
-                if(this.tinta + tinta >= 100)
+                if(this.tinta + tinta >= cantidadTintaMaxima)
                 {
                     this.Recargar();
                 }
