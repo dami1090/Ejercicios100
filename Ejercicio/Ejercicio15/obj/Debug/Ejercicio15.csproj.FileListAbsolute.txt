@@ -1,0 +1,10 @@
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio15\bin\Debug\Ejercicio15.exe.config
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio15\bin\Debug\Ejercicio15.exe
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio15\bin\Debug\Ejercicio15.pdb
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio15\bin\Debug\ClassLibrary1.dll
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio15\bin\Debug\ClassLibrary1.pdb
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio15\obj\Debug\Ejercicio15.csprojAssemblyReference.cache
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio15\obj\Debug\Ejercicio15.csproj.CoreCompileInputs.cache
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio15\obj\Debug\Ejercicio15.csproj.CopyComplete
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio15\obj\Debug\Ejercicio15.exe
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio15\obj\Debug\Ejercicio15.pdb
