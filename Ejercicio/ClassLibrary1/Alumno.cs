@@ -23,7 +23,7 @@ namespace BibliotecaDami
         }
         public void Mostrar()
         {
-            Console.WriteLine("Nombre: {0}, Apellido: {1}, Nro legajo: {2}, Nota 1: {3}, Nota 2: {4}", this.nombre, this.apellido, this.legajo, this.nota1, this.nota2);
+            Console.WriteLine("Nombre: {0}, Apellido: {1}, Nro legajo: {2}.\nNota 1: {3}, Nota 2: {4}", this.nombre, this.apellido, this.legajo, this.nota1, this.nota2);
             if (this.notaFinal != -1)
             {
                 Console.WriteLine("Nota Final: {0}", this.notaFinal);
