@@ -1,0 +1,10 @@
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio16\bin\Debug\Ejercicio16.exe.config
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio16\bin\Debug\Ejercicio16.exe
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio16\bin\Debug\Ejercicio16.pdb
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio16\bin\Debug\ClassLibrary1.dll
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio16\bin\Debug\ClassLibrary1.pdb
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio16\obj\Debug\Ejercicio16.csprojAssemblyReference.cache
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio16\obj\Debug\Ejercicio16.csproj.CoreCompileInputs.cache
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio16\obj\Debug\Ejercicio16.csproj.CopyComplete
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio16\obj\Debug\Ejercicio16.exe
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio16\obj\Debug\Ejercicio16.pdb
