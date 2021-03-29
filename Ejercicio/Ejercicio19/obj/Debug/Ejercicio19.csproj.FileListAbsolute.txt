@@ -1,0 +1,10 @@
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio19\obj\Debug\Ejercicio19.csprojAssemblyReference.cache
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio19\obj\Debug\Ejercicio19.csproj.CoreCompileInputs.cache
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio19\bin\Debug\Ejercicio19.exe.config
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio19\bin\Debug\Ejercicio19.exe
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio19\bin\Debug\Ejercicio19.pdb
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio19\bin\Debug\ClassLibrary1.dll
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio19\bin\Debug\ClassLibrary1.pdb
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio19\obj\Debug\Ejercicio19.csproj.CopyComplete
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio19\obj\Debug\Ejercicio19.exe
+D:\UTN\LAB II\Ejercicios100\Ejercicio\Ejercicio19\obj\Debug\Ejercicio19.pdb
