@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio19", "Ejercicio19\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase 3 - Sobrecarga", "Clase 3 - Sobrecarga\Clase 3 - Sobrecarga.csproj", "{36E59D93-0663-4F9D-A09D-550EE6DE5DBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio20", "Ejercicio20\Ejercicio20.csproj", "{A9DF97FE-2A56-47C1-A8DC-A04A78AB6470}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{36E59D93-0663-4F9D-A09D-550EE6DE5DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36E59D93-0663-4F9D-A09D-550EE6DE5DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36E59D93-0663-4F9D-A09D-550EE6DE5DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9DF97FE-2A56-47C1-A8DC-A04A78AB6470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9DF97FE-2A56-47C1-A8DC-A04A78AB6470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9DF97FE-2A56-47C1-A8DC-A04A78AB6470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9DF97FE-2A56-47C1-A8DC-A04A78AB6470}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
