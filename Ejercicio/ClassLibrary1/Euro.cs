@@ -17,11 +17,11 @@ namespace Billetes
         }
         public Euro(double cant) : this()
         {
-            this.cantidad = cant;
+            this.cantidad = Math.Round(cant,2);
         }
         public Euro(double cant, double cotiz) : this(cant)
         {
-            this.cantidad = cant;
+            this.cantidad = Math.Round(cant,2);
             Euro.cotizRespectoDolar = cotiz;
         }
         #endregion
@@ -59,8 +59,7 @@ namespace Billetes
         public static bool operator ==(Euro e1, Dolar d1)
         {
             bool result = false;
-
-            if (e1.cantidad == (d1.GetCantidad() / Euro.GetCotizacion()))
+            if (e1 == (Euro)d1)
             {
                 result = true;
             }
@@ -70,13 +69,10 @@ namespace Billetes
         {
             return !(e1 == d1);
         }
-
         public static bool operator ==(Euro e1, Pesos p1)
         {
             bool result = false;
-            double resultado;
-            resultado = p1.GetCantidad() / Pesos.GetCotizacion();
-            if (e1.cantidad == (resultado / Euro.GetCotizacion()))
+            if (e1 == (Euro)((Dolar)p1))
             {
                 result = true;
             }
@@ -91,26 +87,26 @@ namespace Billetes
         #region Operator de + y -
         public static Euro operator +(Euro e1, Dolar d1)
         {
-            Euro resultado = new Euro();
-            resultado.cantidad = (d1.GetCantidad() / Euro.GetCotizacion()) + e1.cantidad;
+            Euro resultado = (Euro)d1;
+            resultado = resultado.cantidad + e1.cantidad;
             return resultado;
         }
         public static Euro operator -(Euro e1, Dolar d1)
         {
-            Euro resultado = new Euro();
-            resultado.cantidad = e1.cantidad - (d1.GetCantidad() / Euro.GetCotizacion());
+            Euro resultado = (Euro)d1;
+            resultado = e1.cantidad - resultado.cantidad;
             return resultado;
         }
         public static Euro operator +(Euro e1, Pesos p1)
         {
-            Euro resultado = new Euro();
-            resultado.cantidad = ((p1.GetCantidad() / Pesos.GetCotizacion()) / Euro.GetCotizacion()) + e1.cantidad;
+            Euro resultado = (Euro)p1;
+            resultado = resultado.cantidad + e1.cantidad;
             return resultado;
         }
         public static Euro operator -(Euro e1, Pesos p1)
         {
-            Euro resultado = new Euro();
-            resultado.cantidad = e1.cantidad - ((p1.GetCantidad() / Pesos.GetCotizacion()) / Euro.GetCotizacion());
+            Euro resultado = (Euro)p1;
+            resultado = e1.cantidad - resultado.cantidad;
             return resultado;
         }
         #endregion
@@ -123,10 +119,14 @@ namespace Billetes
         }
         public static explicit operator Pesos(Euro e)
         {
-            Pesos p = new Pesos((e.cantidad * Euro.cotizRespectoDolar)*Pesos.GetCotizacion());
+            Pesos p = new Pesos((e.cantidad * Euro.cotizRespectoDolar) * Pesos.GetCotizacion());
             return p;
         }
 
         #endregion
+        public static explicit operator double(Euro e1)
+        {
+            return e1.cantidad;
+        }
     }
 }
