@@ -14,10 +14,10 @@ namespace BibliotecaDami
             string concatenacion;
             double num;
             while (n > 1) {
-                num = n % 2;
+                num = Math.Floor(n % 2);
                 concatenacion = num.ToString();
                 resultado+=concatenacion;
-                n = n / 2;
+                n = Math.Floor(n / 2);
                 //Console.WriteLine("Resultado: " + resultado + " N: " + n);
                 if(n == 1 || n == 0)
                 {

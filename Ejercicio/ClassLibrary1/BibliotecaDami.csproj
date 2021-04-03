@@ -46,7 +46,7 @@
     <Compile Include="Boligrafo.cs" />
     <Compile Include="Alumno.cs" />
     <Compile Include="Centimetro.cs" />
-    <Compile Include="Numerodecimal.cs" />
+    <Compile Include="NumeroDecimal.cs" />
     <Compile Include="NumeroBinario.cs" />
     <Compile Include="Dolar.cs" />
     <Compile Include="Euro.cs" />
