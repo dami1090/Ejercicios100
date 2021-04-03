@@ -8,11 +8,11 @@ namespace BibliotecaDami
 {
     public class Conversor
     {
-        public static string DecimalBinario(int n)
+        public static string DecimalBinario(double n)
         {
             string resultado = "";
             string concatenacion;
-            int num;
+            double num;
             while (n > 1) {
                 num = n % 2;
                 concatenacion = num.ToString();
@@ -29,19 +29,19 @@ namespace BibliotecaDami
             return resultado;
         }
 
-        public static int BinarioDecimal(string s)
+        public static double BinarioDecimal(string s)
         {
-            int result = 0;
-            int charInt;
-            int acu;
-            int potencia = 1;
+            double result = 0;
+            double charInt;
+            double acu;
+            double potencia = 1;
             char[] charArray = s.ToCharArray();
             Array.Reverse(charArray);
             for (int i = 0; i < s.Length; i++)
             {
                 if (charArray[i] == '1')
                 {
-                    charInt = int.Parse(charArray[i].ToString());
+                    charInt = double.Parse(charArray[i].ToString());
                     acu = potencia * charInt;
                     //Console.WriteLine("!!!!! {0} / {1} / {2}", acu, potencia, charArray[i]);
                     result = result + acu;

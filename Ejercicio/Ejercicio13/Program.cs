@@ -11,17 +11,17 @@ namespace Ejercicio13
     {
         static void Main(string[] args)
         {
-            int numero;
+            double numero;
             string preg;
             string resultado;
-            int resultadoDecimal;
+            double resultadoDecimal;
 
             do
             {
                 Console.WriteLine("Ingrese un numero para convertirlo en binario: ");
                 preg = Console.ReadLine();
 
-            } while (!int.TryParse(preg, out numero));
+            } while (!double.TryParse(preg, out numero));
             resultado = Conversor.DecimalBinario(numero);
             Console.WriteLine("El numero en binario es: {0}", resultado);
 
