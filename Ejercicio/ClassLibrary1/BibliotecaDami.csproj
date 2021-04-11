@@ -46,6 +46,9 @@
     <Compile Include="Boligrafo.cs" />
     <Compile Include="Alumno.cs" />
     <Compile Include="Centimetro.cs" />
+    <Compile Include="Celsius.cs" />
+    <Compile Include="Kelvin.cs" />
+    <Compile Include="Farenheit.cs" />
     <Compile Include="NumeroDecimal.cs" />
     <Compile Include="NumeroBinario.cs" />
     <Compile Include="Dolar.cs" />
